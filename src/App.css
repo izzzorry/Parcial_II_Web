@@ -1,0 +1,369 @@
+.contenedor{
+margin-top: 15px;
+width: 299px;
+height: 300px;
+background: #D9D9D9;
+border-radius: 40px;
+align-items: center; 
+display: flex; 
+flex-direction: column;
+padding: 10px 5%;
+font-family: "Baloo Da 2", sans-serif;
+
+}
+.formi{
+  font-family: "Baloo Da 2", sans-serif;
+  display: flex; /* Esto activa Flexbox para alinear los elementos internos */
+  flex-direction: column;
+  background: linear-gradient(to right, #21558E, #81A9DD,#94BBEB, #D7CAE4 );
+  align-items: center;
+  gap: 8px;
+  padding: 2.5% 2.5%;
+}
+
+.formi input {
+  width: 40%;
+  border-radius: 20px; /* Un valor en px podría ser más adecuado para border-radius */
+  background-color: #D9D9D9;
+  font-family: "Baloo Da 2", sans-serif;
+  padding: 10px 15px; /* Agrega algo de padding para mejor manejo visual y clic */
+  border: 1px solid #ccc; /* Opcional: agrega un borde sutil */
+  outline: none; /* Remueve el borde de foco que algunos navegadores añaden */
+  box-sizing: border-box; /* Asegura que el padding y el border no afecten el ancho total */
+}
+
+.formi input:focus {
+  border-color: #666; /* Cambia el color del borde al hacer foco para mejor visibilidad */
+}
+
+.formi button{
+
+display: flex;
+align-items: center;
+
+padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+
+box-sizing: border-box;
+width: 132px;
+height: 36px;
+
+background: transparent;
+border: 1px solid #FFFFFF;
+border-radius: 7px;
+}
+.opciones{
+  display: flex; /* Esto activa Flexbox para alinear los elementos internos */
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Esto añade una sombra suave debajo del nav */
+  background: linear-gradient(to right, #21558E, #81A9DD,#94BBEB, #D7CAE4 ); /* Esto crea un degradado horizontal */
+  font-family: "Baloo Da 2", sans-serif;
+}
+.canciones{
+  display: flex; /* Esto activa Flexbox para alinear los elementos internos */
+  justify-content: center; /* Esto separa el logo y los elementos del menú */
+  align-items: center; 
+  flex-direction: row;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 990px;
+  height: 135px;
+  left: 0px;
+  top: 314px;
+  background: #FFFFFF;
+  gap: 50px;
+ 
+}
+
+.texto{
+  display: flex; /* Esto activa Flexbox para alinear los elementos internos */
+  justify-content: center; /* Esto separa el logo y los elementos del menú */
+  align-items: left; 
+  flex-direction: column;
+  margin-left: 7px;
+}
+.albums{
+  display: flex; /* Esto activa Flexbox para alinear los elementos internos */
+  justify-content: space-between; /* Esto separa el logo y los elementos del menú */
+  align-items: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 850px;
+  height: 135px;
+  left: 1px;
+  top: 181px;
+  background: #FFFFFF;
+  padding: 2.5px 2.5%;
+}
+.encabezado{
+  display: flex; /* Esto activa Flexbox para alinear los elementos internos */
+  justify-content: space-between; /* Esto separa el logo y los elementos del menú */
+  align-items: center; /* Esto centra los elementos verticalmente */
+  background: linear-gradient(to right, #21558E, #81A9DD,#94BBEB, #D7CAE4 ); /* Esto crea un degradado horizontal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Esto añade una sombra suave debajo del nav */
+  position: sticky;
+  top: 0;
+  z-index: 105;
+  text-decoration: none;
+}
+.NavAbajo{
+  justify-content: space-between; /* Esto separa el logo y los elementos del menú */
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 2.5px 2.5%;
+  position: sticky;
+  top: 0;
+  z-index: 104;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.1); 
+}
+.NavAbajo h1{
+  font-size: 20px;
+  text-decoration: none;
+  color:#3C3B41;
+  font-family: "Baloo Da 2", sans-serif;
+
+}
+.NavAbajo form{
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #D9D9D9;
+  width: 250px;
+  border-radius: 7px;
+  display: flex;
+  padding: 0 5px;
+  width: 296px;
+  height: 36px;
+  left: 927px;
+  top: 124px;
+
+}
+
+.NavAbajo form input{
+  
+  width: 100%;
+  background: transparent;
+  padding: 8px;
+  outline: none;
+  border: none;
+  font-family: "Baloo Da 2", sans-serif;
+}
+.NavAbajo form button img{
+  width: 14px;
+}
+.NavAbajo form button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.Logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Baloo Da 2", sans-serif;
+}
+
+.Logo span{
+
+font-family: "Baloo Da 2", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 54px;
+
+color: #FFFFFF;
+
+text-decoration: none;
+ 
+}
+.Logo img{
+  width: 15%;
+  margin-right: 15px;
+  display: block;
+
+}
+.Botones{
+display: flex;
+align-items: center;
+margin-right: 30px;
+}
+.Botones button{
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  
+}
+.login {
+  box-sizing: border-box;
+  width: 132px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 7px;
+  color: #FFFFFF; /* Color de texto inicial blanco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px; /* Ajusta según necesites */
+  transition: all 0.3s ease; /* Transición suave para los cambios */
+  position: relative; /* Necesario para la posición del pseudo-elemento */
+  overflow: hidden; /* Asegura que nada se salga del borde redondeado */
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #21558E, #81A9DD, #94BBEB, #D7CAE4);
+  z-index: -1;
+  transition: opacity 0.3s ease;
+  opacity: 0; /* Inicialmente oculto */
+  border-radius: 7px; /* Igual que el botón para mantener la forma */
+}
+
+.login:hover::before {
+  opacity: 1; /* Muestra el fondo en hover */
+}
+
+.login:hover {
+  background: white; /* Cambia el fondo a blanco */
+  color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+  background-clip: text; /* Asegura que el fondo solo se aplique al texto */
+  -webkit-background-clip: text; /* Soporte para webkit */
+  -webkit-text-fill-color: transparent; /* Específico de webkit */
+}
+
+.login:hover {
+  border-color: transparent; /* Oculta el borde */
+  font-size: 14px;
+}
+
+
+.logout{
+  /* Rectangle 3 */
+  width: 132px;
+  height: 36px;
+  
+  background: #FFFFFF;
+  border-radius: 7px;
+  
+  }
+  
+
+  .registro {
+    /* Dimensiones del botón */
+    width: 132px;
+    height: 36px;
+    border: 1px solid transparent; /* Asegúrate de que haya un borde para animar */
+    background: #FFFFFF; /* Fondo blanco inicial */
+    border-radius: 7px;
+    color: #000000; /* Color de texto inicial, negro o el que prefieras */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; /* Ajusta según necesites */
+    transition: all 0.3s ease; /* Transición suave para los cambios */
+    position: relative; /* Necesario para la posición del pseudo-elemento */
+    overflow: hidden; /* Asegura que nada se salga del borde redondeado */
+}
+
+.registro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: #FFFFFF;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Inicialmente oculto */
+    border-radius: 7px; /* Igual que el botón para mantener la forma */
+}
+
+.registro:hover::before {
+    opacity: 1; /* Muestra el gradiente de fondo en hover */
+}
+
+.registro:hover {
+    background: transparent; /* Cambia el fondo a transparente */
+    color: #FFFFFF; /* Cambia el color de texto a blanco */
+    border-color: #FFFFFF; 
+    font-size: 14px;
+}
+
+
+.body ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Ajusta el espacio entre las cajas como prefieras */
+  padding: 0;
+}
+
+.body li {
+  list-style-type: none;
+  border: 1px solid transparent; /* Prepara el borde para el efecto hover */
+  transition: opacity 0.3s ease, border-color 0.3s ease;
+}
+
+.body li:hover {
+  opacity: 0.7;
+  border-color: white; /* Muestra el borde blanco al hacer hover */
+}
+.body{
+  background: linear-gradient(to right, #21558E, #81A9DD,#94BBEB, #D7CAE4 ); /* Esto crea un degradado horizontal */
+  padding: 2.5% 2.5%;
+}
+.body h1{
+  font-family: "Baloo Da 2", sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.record ul li {
+    margin-right: 10px;
+}
+
+.record ul li:last-child {
+    margin-right: 0;
+}
+
+.record {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 6%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan a una nueva línea si no caben en el ancho */
+  color: #3C3B41;
+}
+.record p{
+  font-size: small;
+}
+
+
+.record{
+  margin-bottom: 20px; /* Ajusta el espacio entre los grupos de elementos */
+  font-family: "Baloo Da 2", sans-serif;
+}
+
+.record ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
